@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz App</title>
+</head>
+
+<body class="">
+
+    <div class="d-flex align-items-center justify-content-center outer-div">
+        <div class="bg-white inner-div">
+            <div class="container text-right">
+                <span id="time" class="font-weight-bold">2:00</span>
+            </div>
+
+            <h1 class="question" id="que">
+                Question goes here
+            </h1>
+
+
+            <ul class="list-group list-group-item border-0">
+                <li id="li1">
+                    <input id="opt1" name="options" class="options" type="radio">
+                    <label id="a"> Option 1 </label>
+                </li>
+                <li id="li2">
+                    <input id="opt2" name="options" class="options" type="radio">
+                    <label id="b"> Option 2 </label>
+                </li>
+                <li id="li3">
+                    <input id="opt3" name="options" class="options" type="radio">
+                    <label id="c"> Option 3 </label>
+                </li>
+                <li id="li4">
+                    <input id="opt4" name="options" class="options" type="radio">
+                    <label id="d"> Option 4 </label>
+                </li>
+
+            </ul>
+
+
+
+            <br>
+            <div class="container">
+
+                <button type="button" id="submit" class="btn form-control">Submit </button><br><br>
+
+            </div>
+
+
+            <div class="container score bg-secondary" id="score">
+                <h5 id="marks" class="text-center">Your Score:</h5>
+                <button id="donebtn" onclick="location.reload()" class="btn btn-primary">Play Again</button>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

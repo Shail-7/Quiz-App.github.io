@@ -1,0 +1,49 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.outer-div {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.inner-div {
+    width: 80vh;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.question {
+    font-size: 25px !important;
+   
+}
+
+ul {
+    list-style-type: none;
+}
+
+.score{
+    /* display: none; */
+    visibility: hidden;
+
+}
+
+.options:hover{
+    cursor: pointer;
+}
+
+#submit{
+
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+
+
